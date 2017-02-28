@@ -1,6 +1,6 @@
 # React / Webpack / Cornerstone
 
-React/cornerstone web app.
+React/ [Cornerstone](https://github.com/chafey/cornerstone) cornerstone web app.
 
 Running on development mode:
 ```
