@@ -1,0 +1,50 @@
+{
+  "name": "react-cornerstone",
+  "version": "1.0.0",
+  "description": "React Dicom image viewer",
+  "main": "./src/entry.js",
+  "homepage": "https://github.com/Revln9/react-cornerstone",
+  "author": "Sami Chetbi",
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Revln9/react-cornerstone.git"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "webpack",
+    "es2015",
+    "javascript"
+  ],
+  "dependencies": {
+    "express": "^4.13.4",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "dicom-parser":"1.7.4"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.6.5",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.14",
+    "cross-env": "^3.1.3",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0"
+  }
+}
+ git config --global user.email "Sami.chetbi@gmail.com"
+ git config --global user.name "Sami Chetbi"
