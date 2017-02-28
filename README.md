@@ -1,4 +1,4 @@
-# React / Webpack / Cornerstone
+# React / Node / Cornerstone
 
 React/ [Cornerstone](https://github.com/chafey/cornerstone) cornerstone web app.
 
