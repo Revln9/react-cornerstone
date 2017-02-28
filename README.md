@@ -1,6 +1,6 @@
 # React / Webpack / Cornerstone
 
-Heroku deployable app for React/cornerstone web apps.
+React/cornerstone web app.
 
 Running on development mode:
 ```
