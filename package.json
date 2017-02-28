@@ -46,5 +46,3 @@
     "webpack-hot-middleware": "^2.10.0"
   }
 }
- git config --global user.email "Sami.chetbi@gmail.com"
- git config --global user.name "Sami Chetbi"
