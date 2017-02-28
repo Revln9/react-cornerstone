@@ -34,7 +34,7 @@ module.exports = {
       { test: /\.js?$/,
         loader: 'babel',
         include: path.join(__dirname, 'src') },
-      { test: /\.scss?$/,
+      { test: /\.css?$/,
         loader: 'style!css',
         include: path.join(__dirname, 'src', 'styles') },
       { test: /\.png$/,
