@@ -1,6 +1,6 @@
 # React / Node / Cornerstone
 
-React/ [Cornerstone](https://github.com/chafey/cornerstone) cornerstone web app.
+React/ [Cornerstone](https://github.com/chafey/cornerstone)  web boilerplate.
 
 Running on development mode:
 ```
