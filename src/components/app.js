@@ -13,11 +13,10 @@ handleDocumentUploadChange(event ){
 	
 	var fileInput = document.querySelector("#input-file");
     var element = document.getElementById('dicomImage');
-	var file = fileInput.files[0];
-	var reader = new FileReader();
+
 	 	
-	 reader.addEventListener("load", function () {
-   
+	 if (fileInput.files) {
+   		var file = fileInput.files[0];
 		 var imageId =	DcmLoader.wadouri.fileManager.add(file);
 	 	 cornerstone.loadImage(imageId).then(function(image) {
 	  	 var viewport = cornerstone.getDefaultViewport(element.children[0], image);
@@ -27,10 +26,6 @@ handleDocumentUploadChange(event ){
        });
          
 
-  }, false);
-
-  if (file) {
-    reader.readAsDataURL(file);
   }
 
 }
