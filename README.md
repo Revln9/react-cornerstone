@@ -13,6 +13,6 @@ npm run build
 npm start
 ```
 
-The corenerstone library used in this project was rewiritten to remove jquery from its dependencies.
+The cornerstone library used in this project was forked and modified to remove jquery from its dependencies.
 
 Before you deploy, make sure you generated your bundle through `npm run build`.
